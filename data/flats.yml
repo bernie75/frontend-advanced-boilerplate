@@ -1,0 +1,27 @@
+seb:
+  owner_name: Sebastien Saunier
+  picture: card-paris.jpg
+  owner_picture: seb.jpg
+  name: Seb's home
+  summary: Charming room in Montmartre
+  city: Paris, France
+  wifi: true
+  rating: 4
+
+romain:
+  name: romain's home
+  summary: room in London
+  picture: card-london.jpeg
+  owner_picture: romain.jpeg
+  city: London
+  owner_name: romain
+  rating: 3
+
+anne:
+  name: anne's home
+  summary: room in brussels
+  picture: card-brussels.jpeg
+  owner_picture: anne.jpg
+  city: Brussels
+  owner_name: anne
+  rating: 5

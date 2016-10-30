@@ -1,0 +1,16 @@
+<h1 class="text-center">
+<%= 3 %> members
+</h1>
+
+<% members = %w( romain anne seb ) %>
+
+<div class="container text-center padded">
+  <ul class="list-inline">
+   <% members.each do |member| %>
+    <li>
+      <img src="http://placehold.it/80x80" alt="" class="img-circle">
+      <h3><%= member.capitalize %></h3>
+    </li>
+   <% end %>
+  </ul>
+</div>
