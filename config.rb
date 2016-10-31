@@ -34,7 +34,7 @@ activate :autoprefixer
 
 
 data.flats.keys.each do |name|
-  proxy "/flats/#{name}.html", "/flats/show.html", :locals => { :owner_name => name }
+  proxy "/flats/#{name}.html", "/flats/show.html", :locals => { :owner_name => name }, :ignore => true
 end
 
 ###

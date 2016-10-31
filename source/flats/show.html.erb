@@ -13,16 +13,16 @@
           <%= image_tag flat.owner_picture, class: "img-circle" %>
           <p><%= flat.owner_name%></p>
           </div>
-        </div>
-        <div class="card-profile-details">
-          <h1> <%= flat.name %> </h1>
-          <p><%= flat.city %></p>
-          <% flat.rating.times do %>
-          <i class= "fa fa-star" style="color:#FFB500;"></i>
-          <% end %>
-          <% (5 - flat.rating).times do %>
-          <% end %>
-          <i class= "fa fa-star" style="color:#CACCCD;"></i>
+          <div class="card-profile-details">
+            <h1> <%= flat.name %> </h1>
+            <p><%= flat.city %></p>
+            <% flat.rating.times do %>
+            <i class= "fa fa-star" style="color:#FFB500;"></i>
+            <% end %>
+            <% (5 - flat.rating).times do %>
+            <% end %>
+            <i class= "fa fa-star" style="color:#CACCCD;"></i>
+          </div>
         </div>
       </div>
       <div class="col-xs-12 col-sm-4">
@@ -45,9 +45,62 @@
               <option value="3">3 guests</option>
             </select>
           </div>
-          <input type="submit" value="Booki it", class="btn btn-danger", style="width: 100%;">
+          <input type="submit" value="Book it", class="btn btn-danger", style="width: 100%;">
         </form>
       </div>
     </div>
   </div>
 </div>
+<div id="body-flat">
+  <div class="cantainer">
+   <div class="row">
+<div class="col-xs-12 col-sm-10 col-sm-offset-1">
+        <h2>About this flat</h2>
+        <p>
+          This one bedroom studio lodges 2 people (there's 1 double bed) it is located in the city center, in a calm traditional residential area near city´s main Avenue - 3 minutes walk from Sacré Coeur.
+        </p>
+        <hr>
+        <div class="row" id="flat-data">
+          <div class="col-xs-12 col-sm-2">
+            The Space
+          </div>
+          <div class="col-xs-12 col-sm-4">
+            <ul class="list-unstyled">
+              <li>Accommodates:  <strong>2</strong></li>
+              <li>Bathrooms:  <strong>1</strong></li>
+              <li>Bed type:  <strong>Real Bed</strong></li>
+              <li>Bedrooms:  <strong>1</strong></li>
+            </ul>
+          </div>
+          <div class="col-xs-12 col-sm-4">
+            <ul class="list-unstyled">
+              <li>Beds: <strong>1</strong></li>
+              <li>Property type: <strong>Apartment</strong></li>
+              <li>Room type: <strong>Entire home/apt</strong></li>
+            </ul>
+          </div>
+        </div>
+        <hr>
+        <div class="row" id="flat-data">
+          <div class="col-xs-12 col-sm-2">
+            Amenities
+          </div>
+          <div class="col-xs-12 col-sm-4">
+            <ul class="list-unstyled">
+              <li><i class="fa fa-cutlery"></i><strong>Kitchen</strong></li>
+              <li><i class="fa fa-wifi"></i><strong>Wifi</strong></li>
+            </ul>
+          </div>
+          <div class="col-xs-12 col-sm-4">
+            <ul class="list-unstyled">
+              <li><i class="fa fa-desktop"></i><strong>TV</strong></li>
+              <li><i class="fa fa-glass"></i><strong>Welcome drink</strong></li>
+            </ul>
+          </div>
+        </div>
+
+      <div></div></div>
+   </div>
+  </div>
+</div>
+
